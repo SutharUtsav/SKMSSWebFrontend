@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.b10bb80e.css",
-    "main.js": "/static/js/main.ecff7344.js",
-    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
-    "static/media/event.jpg": "/static/media/event.1609a92d4327c59e863a.jpg",
-    "static/media/vishwakarma.png": "/static/media/vishwakarma.577c3561de42b15ae82b.png",
-    "static/media/gallery-infrastructure.jpg": "/static/media/gallery-infrastructure.58520858a76659394ef2.jpg",
-    "static/media/SamajLogo.png": "/static/media/SamajLogo.1fac3948a3e0ae2371da.png",
-    "static/media/Advertice-landscape.jpeg": "/static/media/Advertice-landscape.6a4e4a30a7b8903cebbe.jpeg",
-    "static/media/social-activity-logo.jpg": "/static/media/social-activity-logo.ce920692f3a66ab9472c.jpg",
-    "static/media/fun-activity-logo.webp": "/static/media/fun-activity-logo.423d851ed720d4b946d8.webp",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "index.html": "/index.html",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.b10bb80e.css.map": "/static/css/main.b10bb80e.css.map",
-    "main.ecff7344.js.map": "/static/js/main.ecff7344.js.map",
-    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/SKMSSWebFrontend/static/css/main.98788d37.css",
+    "main.js": "/SKMSSWebFrontend/static/js/main.89e6b30c.js",
+    "static/js/787.cda612ba.chunk.js": "/SKMSSWebFrontend/static/js/787.cda612ba.chunk.js",
+    "static/media/event.jpg": "/SKMSSWebFrontend/static/media/event.1609a92d4327c59e863a.jpg",
+    "static/media/vishwakarma.png": "/SKMSSWebFrontend/static/media/vishwakarma.577c3561de42b15ae82b.png",
+    "static/media/gallery-infrastructure.jpg": "/SKMSSWebFrontend/static/media/gallery-infrastructure.58520858a76659394ef2.jpg",
+    "static/media/SamajLogo.png": "/SKMSSWebFrontend/static/media/SamajLogo.1fac3948a3e0ae2371da.png",
+    "static/media/Advertice-landscape.jpeg": "/SKMSSWebFrontend/static/media/Advertice-landscape.6a4e4a30a7b8903cebbe.jpeg",
+    "static/media/social-activity-logo.jpg": "/SKMSSWebFrontend/static/media/social-activity-logo.ce920692f3a66ab9472c.jpg",
+    "static/media/fun-activity-logo.webp": "/SKMSSWebFrontend/static/media/fun-activity-logo.423d851ed720d4b946d8.webp",
+    "static/media/slick.svg": "/SKMSSWebFrontend/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/SKMSSWebFrontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/SKMSSWebFrontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/SKMSSWebFrontend/index.html",
+    "static/media/slick.woff": "/SKMSSWebFrontend/static/media/slick.295183786cd8a1389865.woff",
+    "main.98788d37.css.map": "/SKMSSWebFrontend/static/css/main.98788d37.css.map",
+    "main.89e6b30c.js.map": "/SKMSSWebFrontend/static/js/main.89e6b30c.js.map",
+    "787.cda612ba.chunk.js.map": "/SKMSSWebFrontend/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b10bb80e.css",
-    "static/js/main.ecff7344.js"
+    "static/css/main.98788d37.css",
+    "static/js/main.89e6b30c.js"
   ]
 }
