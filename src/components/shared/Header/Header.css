@@ -12,10 +12,6 @@
     font-weight: 300
 }
 
-.top-nav *:hover {
-    color: var(--primary-color);
-}
-
 .top-nav a,
 .top-nav span {
     padding: 5px;
@@ -114,6 +110,10 @@
 }
 
 @media screen and (min-width:0px) and (max-width:425px) {
+    .header{
+        padding: 8px;
+    }
+
     .header .logo img {
         width: 80px;
     }

@@ -5,14 +5,18 @@ import EventContainer from './EventContainer'
 import HeroContainer from './HeroContainer'
 import Advertizement from './Advertizement'
 import GalleryContainer from './GalleryContainer'
+import InfoCount from './InfoCount'
 
 const Home = () => {
 
 
     return (
         <>
-            <HeroContainer />
-            <ActivityContainer />
+            <div className='position-relative'>
+                <HeroContainer />
+                <InfoCount />
+                {/* <ActivityContainer /> */}
+            </div>
             <EventContainer />
             <Advertizement />
             <GalleryContainer />

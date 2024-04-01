@@ -1,63 +1,37 @@
 .hero-section {
     background-color: var(--body-background);
-    /* display: flex; */
-    /* justify-content: space-around; */
-    padding: 30px 0;
-    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    /* Center the image horizontally */
+    align-items: center;
+    position: relative;
+    /* Center the image vertically */
 }
 
 .hero-section .hero-container {
-    display: block;
+    width: 100%;
+    padding: 0;
+    height: 70vh;
+    max-width: 100vw;
+    max-height: 70vh;
 }
 
 .hero-section .image-container {
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    /* Make sure image doesn't exceed container width */
+    height: 100%;
 }
-
 
 .hero-section .image-container img {
     width: 100%;
+    opacity: 0.9;
     height: 100%;
-    object-fit: contain;
-    aspect-ratio: 1;
-    margin: 0;
-/* 
-    position: relative; */
-    /* animation: slideFromRight 1s ease-in-out; */
-
-}
-
-@keyframes slideFromRight {
-    0% {
-        right: -50vw;
-    }
-
-    100% {
-        right: 50px;
-    }
+    object-fit: fill;
+    /* Ensure the image covers the entire container */
 }
 
 
-.hero-section div div:first-child {
-    margin-top: auto;
-    margin-bottom: auto;
-    max-width: 50%;
-}
-
-.hero-section div:first-child h4 {
-    font-size: 3.165rem;
-    font-weight: 500;
-    margin: 10px 0;
-}
-
-.hero-section div:first-child p {
-    font-size: 1.765rem;
-    text-transform: none;
-    color: var(--sub-text-color);
-    margin-top: 5px;
-
-}
 
 .activity-category {
     display: flex;
@@ -66,7 +40,7 @@
     background: var(--secondary-color);
 }
 
-.activity-category .activity-container{
+.activity-category .activity-container {
     display: flex;
     align-items: baseline;
 }
@@ -119,6 +93,7 @@
 .gallery-section {
     background-color: var(--body-background);
     padding: 20px;
+    position: relative;
 }
 
 .event-section h4,
@@ -151,11 +126,11 @@
     flex-direction: row;
     gap: 10px;
     justify-content: space-between;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
 }
 
-.event-container .event:hover{
-    background-color:#eee;
+.event-container .event:hover {
+    background-color: #eee;
     cursor: pointer;
 }
 
@@ -270,53 +245,85 @@
     text-transform: capitalize;
 }
 
+
+.info-count-section{
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -50px;
+    z-index: 2; /* Place it above section1 */
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.info-count-section .info-count-container{
+    background-color: var(--secondary-background);
+}
+
+
+.info-count-section .info-count-container *{
+    color: var(--text-field-color);
+    font-size: 1.656rem;
+    font-weight: 300;
+}
+
 @media screen and (max-width:426px) {
-    .hero-section .hero-container {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
 
     .hero-section div div:first-child {
-        max-width: 80%;
-        margin: 10px 0;
+        margin: 0;
     }
 
-    .hero-section div:first-child h4 {
-        text-align: center;
 
+    .advertice-section .image-container {
+        height: 200px;
     }
 
-    .hero-section div:first-child p {
-        text-align: justify;
-    }
 
-    .advertice-section .image-container{
-        height: auto;
-        aspect-ratio: 9/2;
-    }
-
-    
 
 
 }
 
 @media screen and (max-width:426px) {
-    .activity-category .activity-container{
+    .header{
+        padding: 10px;
+    }
+
+    .activity-category .activity-container {
         flex-direction: column;
     }
-    .activity-category .activity{
+
+    .activity-category .activity {
         padding: 10px;
         border-top: 1px solid #e3701c;
     }
+
+    .info-count-section{
+        position: relative;
+        bottom: 0;
+        display: block;
+        background-color: var(--body-background);
+    }
+
 
 
 }
 
 @media screen and (max-width:768px) {
-    .activity-category .activity{
+    .header{
+        padding: 15px;
+    }
+
+    .hero-section .hero-container {
+        max-height: 50vw;
+    }
+
+    .activity-category .activity {
         gap: 8px;
     }
-    .activity-category .activity:hover{
+
+    .activity-category .activity:hover {
         background-color: var(--secondary-color);
     }
 
@@ -325,47 +332,52 @@
         height: 60px;
     }
 
-    .activity-category .activity h4{
+    .activity-category .activity h4 {
         font-size: 2.055rem;
     }
-    .activity-category .activity p{
+
+    .activity-category .activity p {
         font-size: 1.675rem;
     }
 
-    .event-section h4, .gallery-container h4{
+    .event-section h4,
+    .gallery-container h4 {
         font-size: 3.765rem;
     }
 
 
-    .event-container h6{
+    .event-container h6 {
         text-align: left;
         font-size: 2.465rem;
         margin-bottom: 15px;
         border-bottom: 1px solid;
     }
 
-    .event-container .event{
+    .event-container .event {
         flex-direction: column;
     }
 
-    .event-container .event .image-container{
+    .event-container .event .image-container {
         width: fit-content;
         height: auto;
-        margin: auto;    
+        margin: auto;
     }
-    .event-container .event div:nth-child(2){
+
+    .event-container .event div:nth-child(2) {
         max-width: 100%;
     }
-    .event-container .event .event-description{
+
+    .event-container .event .event-description {
         font-size: 1.565rem;
         font-weight: 500;
     }
 
-    .event-container .event .event-title{
+    .event-container .event .event-title {
         font-size: 2.265rem;
         text-align: center;
     }
-    .event-container .event .date{
+
+    .event-container .event .date {
         background-color: var(--secondary-color);
         flex-direction: row;
         padding: 5px;
@@ -373,15 +385,31 @@
         width: 100%;
         height: auto;
     }
-    .event-container .event .date span:first-child{
+
+    .event-container .event .date span:first-child {
         margin-right: 5px;
     }
 
-    .gallery-container .image-container{
+    .gallery-container .image-container {
         width: 200px;
         height: 200px;
         object-fit: 4/3;
         padding: 0;
         border-radius: 0;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .hero-section .hero-container {
+        max-height: 50vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero-section .hero-container {
+        max-width: 1550px;
     }
 }
