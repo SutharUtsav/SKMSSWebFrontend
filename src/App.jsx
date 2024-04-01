@@ -9,7 +9,6 @@ import Trustees from './components/Trustees/Trustees';
 import Event from './components/Events/Event';
 import NotFound from './components/NotFound/NotFound';
 import Contact from './components/contact/Contact';
-import Header2 from './components/shared/Header/Header_v2';
 // import { useState, useEffect } from 'react'
 
 // import { Route, Routes } from "react-router-dom";
@@ -21,8 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Header2 />
-        <Navbar />
+        <Header />
       </div>
 
       <Routes>

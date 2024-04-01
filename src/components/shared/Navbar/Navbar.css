@@ -4,7 +4,7 @@ nav.navbar {
 }
 
 .navbar {
-    background-color: var(--secondary-background);
+    background-color: inherit;
 }
 
 .navbar .links {
@@ -17,27 +17,28 @@ nav.navbar {
     padding: 20px 5px;
 }
 
-.navbar .links div a:hover{
-    background-color: var(--secondary-color);
+.navbar .links div a:hover {
+    color: var(--secondary-color);
     border-radius: 8px;
 }
 
 
-.navbar .links div a{
-    padding: 10px 20px;
+.navbar .links div a {
+    padding: 10px 8px;
     font-size: 1.965rem;
-    font-weight: 300;
-    color: var(--text-field-color);
+    font-weight: bold;
+    color: var(--text-field-color-dark);
     text-decoration: none;
 }
-.navbar .links div a.active{
+
+.navbar .links div a.active {
     /* border-bottom: 2px solid var(--secondary-color); */
-    background-color: var(--secondary-color);
+    color: var(--secondary-color);
     border-radius: 8px;
 }
-   
 
-.navbar .more-links *{
+
+.navbar .more-links * {
     font-size: 1.965rem;
     font-weight: 300;
 }
@@ -45,14 +46,15 @@ nav.navbar {
 .navbar .more-links button {
     background-color: transparent;
     border: none;
-    color: var(--text-field-color);
+    color: var(--text-field-color-dark);
 }
 
-.navbar .more-links .dropdown-menu{
+.navbar .more-links .dropdown-menu {
     padding: 10px 15px;
     right: 0;
     left: -50%;
 }
+
 
 @media screen and (max-width:425px) {
     .navbar .links div {

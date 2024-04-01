@@ -1,13 +1,14 @@
 :root {
-  
+
   --body-background: #f7f7f7;
-  --secondary-background:#005B9E;  /* #034359 */
+  --secondary-background: #005B9E;
+  /* #034359 */
   --primary-color: #000000;
   --secondary-color: #f58634;
   --sub-text-color: #8b8b8b;
   --second-cards-color: #ffffff;
   --text-field-color: #fff;
-
+  --text-field-color-dark: #000;
   --body-background-dark: #141414;
   --primary-color-dark: #e5e5e5;
   --gray-hover-color: #dcdcdc;
@@ -48,7 +49,7 @@ html::-webkit-scrollbar {
   background-color: #fff;
 }
 
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
   background-color: var(--sub-text-color);
   border-radius: 8px;
 
@@ -60,13 +61,13 @@ button {
 
 
 @media screen and (max-width: 780px) {
-  .hide-mobile{
+  .hide-mobile {
     display: none;
   }
 }
 
 @media screen and (min-width: 780px) {
-  .hide-desktop{
+  .hide-desktop {
     display: none;
   }
 }

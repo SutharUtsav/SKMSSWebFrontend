@@ -7,24 +7,24 @@
 }
 
 .hero-section .hero-container {
-    display: flex;
-    justify-content: space-around;
+    display: block;
 }
 
 .hero-section .image-container {
-    width: 300px;
-    height: 300px;
+    width: 100vw;
+    height: 50vh;
 }
 
 
 .hero-section .image-container img {
     width: 100%;
+    height: 100%;
     object-fit: contain;
     aspect-ratio: 1;
-    margin: 0 auto;
-
-    position: relative;
-    animation: slideFromRight 1s ease-in-out;
+    margin: 0;
+/* 
+    position: relative; */
+    /* animation: slideFromRight 1s ease-in-out; */
 
 }
 
@@ -58,8 +58,6 @@
     margin-top: 5px;
 
 }
-
-
 
 .activity-category {
     display: flex;
