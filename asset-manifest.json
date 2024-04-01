@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SKMSSWebFrontend/static/css/main.98788d37.css",
-    "main.js": "/SKMSSWebFrontend/static/js/main.89e6b30c.js",
+    "main.css": "/SKMSSWebFrontend/static/css/main.314f339d.css",
+    "main.js": "/SKMSSWebFrontend/static/js/main.f86df3ee.js",
     "static/js/787.cda612ba.chunk.js": "/SKMSSWebFrontend/static/js/787.cda612ba.chunk.js",
     "static/media/event.jpg": "/SKMSSWebFrontend/static/media/event.1609a92d4327c59e863a.jpg",
     "static/media/vishwakarma.png": "/SKMSSWebFrontend/static/media/vishwakarma.577c3561de42b15ae82b.png",
@@ -15,12 +15,12 @@
     "static/media/slick.ttf": "/SKMSSWebFrontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/SKMSSWebFrontend/index.html",
     "static/media/slick.woff": "/SKMSSWebFrontend/static/media/slick.295183786cd8a1389865.woff",
-    "main.98788d37.css.map": "/SKMSSWebFrontend/static/css/main.98788d37.css.map",
-    "main.89e6b30c.js.map": "/SKMSSWebFrontend/static/js/main.89e6b30c.js.map",
+    "main.314f339d.css.map": "/SKMSSWebFrontend/static/css/main.314f339d.css.map",
+    "main.f86df3ee.js.map": "/SKMSSWebFrontend/static/js/main.f86df3ee.js.map",
     "787.cda612ba.chunk.js.map": "/SKMSSWebFrontend/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98788d37.css",
-    "static/js/main.89e6b30c.js"
+    "static/css/main.314f339d.css",
+    "static/js/main.f86df3ee.js"
   ]
 }
