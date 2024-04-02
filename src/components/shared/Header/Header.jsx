@@ -16,7 +16,7 @@ const Header = (props) => {
                 <div className='container d-flex justify-content-between'>
                     <div>
                         <span>
-                            <IoTimeOutline />
+                            <IoTimeOutline fontSize={18}/>
                         </span>
                         <span>
                             Open Hours For Booking and Visit : Mon - Fri: 8.00 am. - 6.00 pm.
@@ -25,7 +25,7 @@ const Header = (props) => {
 
                     <div>
                         <span>
-                            <BiSolidPhoneCall />
+                            <BiSolidPhoneCall fontSize={18}/>
                         </span>
                         <span>
                             +911234567890
